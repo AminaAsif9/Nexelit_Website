@@ -1,0 +1,92 @@
+.main{
+    height: 550px;
+      width: 100%;
+      position: relative;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    .text_main{
+      width: 50%;
+      text-align: left;
+      position: absolute;
+      top: 122px;
+      left: 142px;
+      }
+      #img{
+        position: relative;
+        height: 418px;
+        width: 100%;
+      }
+      #text{
+        height: 418px;
+    width: 100%;
+      }
+      #greydots{
+        background-image: url(Courses/grey\ dots.png);
+        background-size:cover;
+        background-repeat: no-repeat;
+        width: 130px;
+        height: 140px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 1;
+        
+        }
+        #image{
+          background-image: url(Courses/card_offers_1.jpg);
+          background-size:cover;
+          background-repeat: no-repeat;
+          width: 68%;
+          height: 229px;
+          position: absolute;
+          bottom: 90px;
+          left: 90px;
+          z-index: 2;
+          }
+          #dot{
+          background-image: url(Courses/bg\ dot.png);
+          position: absolute;
+          bottom: 0px ;
+          z-index: 3;
+          color: white;
+          background-color: black;
+          width: 130px;
+          height: 140px;
+          font-weight: bold;
+          text-align:center;
+          box-sizing: border-box;
+          border-style: solid;
+          border-color: rgb(255, 183, 0);
+          border-width: 5px;
+          }
+          #girl{
+            background-image: url(images/img1.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 453px;
+          }
+          .sect3{
+            position: relative;
+          }
+         .sec3::after{
+          content: "";
+          height: 2px;
+          width: 39px;
+          background-color:black;
+          position: absolute;
+          top: 35px;
+          left: 121px;
+         }
+      .pop-up:hover{
+          transform: scale(1.1, 1.1);
+        }
+        .bg-img{
+          background-image:url(images/grey.jpg); 
+          background-size:cover;
+          background-repeat: no-repeat;
+        }
+        
